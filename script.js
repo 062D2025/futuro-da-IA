@@ -6,10 +6,11 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Atualmente o hábito de leitura não é comum entre os jovens, a leitura é algo importânte para a formação desses jovens?",
+        enunciado: "Em um grupo de amigos, é comum surgirem desentendimentos e opiniões diferentes. A amizade é importante para superar esses problemas?",
         alternativas: [
             {
-                texto: "Sim, já que, além de inumeros livros servirem de base para vestibulares, eles podem trazer conhecimentos de assuntos diversos e expandir o vacabulario do leitor",
+                texto: "Sim, pois uma amizade verdadeira permite que as pessoas conversem, compreendam umas às outras e encontrem soluções para seus problemas.",
+afirmacao: "A amizade possui grande importância na vida das pessoas, pois ajuda a enfrentar momentos difíceis e ensina valores como respeito, confiança e empatia.",
                 afirmacao: "Os livros ainda são de uma grande importância para os estudos e para a formação da etica e moral da população, sendo sem dúvidas um grande alicerce da sociedade."
             },
             {
