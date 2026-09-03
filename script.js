@@ -6,42 +6,41 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Em um grupo de amigos, é comum surgirem desentendimentos e opiniões diferentes. A amizade é importante para superar esses problemas?",
+        enunciado:  "Um grupo de amigos decidiu criar um projeto para ajudar o meio ambiente no bairro. Qual é a melhor iniciativa para eles começarem a gerar impacto comunitário?",
         alternativas: [
             {
-                texto: "Sim, pois uma amizade verdadeira permite que as pessoas conversem, compreendam umas às outras e encontrem soluções para seus problemas.",
-afirmacao: "A amizade possui grande importância na vida das pessoas, pois ajuda a enfrentar momentos difíceis e ensina valores como respeito, confiança e empatia.",
-                afirmacao: "Os livros ainda são de uma grande importância para os estudos e para a formação da etica e moral da população, sendo sem dúvidas um grande alicerce da sociedade."
+                texto: "Organizar um mutirão de reciclagem e criar uma horta comunitária na praça do bairro.",
+afirmacao: "A união de pessoas em prol da natureza fortalece os laços da comunidade e transforma pequenos espaços em áreas verdes sustentáveis.",
             },
             {
-                texto: "A leitura é indiferente, já que, atualmente não são necessarios livros para os estudos ou enterterimento, já que, atualmente não são necessarios livros para estudos levando em conta que hoje é possível encomtrar ambos nas redes sociais",
-                afirmacao: "Apesar do grande acesso a informaçõese conteúdos que as redes sociais nos proporcionam, os livros não deixam de ser essenciais na sociedade seja para estudos ou para obter conhecimento."
+                texto: "Esperar que a prefeitura resolva todos os problemas ambientais da região sem intervir.",
+                afirmacao: "Embora o poder público tenha responsabilidades, a iniciativa jovem mobiliza a vizinhança e acelera transformações ecológicas urgentes."
             }
         ]
     },
     {
-        enunciado: "Algumas pessoas tem muita dificuldade para começarem no mundo da leitura, dito isso qual seria a maneira mais recomendada para se começar a ler?",
+        enunciado: "Durante as férias, o grupo de amigos percebeu que a praia local estava cheia de resíduos plásticos. Como eles devem agir para resolver o problema de forma conscientizadora?",
         alternativas: [
             {
-                texto: "Ler livros pequenos, de facíl entendimento e que sejam de assuntos de interesse do leitor.",
-                afirmacao: "Para quem não  tem o hábito de ler, porém tem vontadede iniciar no mundo da leitura o mais indicado seria ler livros pequenos e de assuntos que sejam de interesse do leitor para despertar o interesse da leitura e tornar a mesma um habito."
+                texto: "Realizar uma limpeza na praia e produzir vídeos para as redes sociais ensinando a reduzir o uso de plástico.",
+                afirmacao: "Usar a comunicação e a ação prática inspira outros jovens a adotarem hábitos mais limpos e protetores da vida marinha."
             },
             {
-                texto: "Ler livros didáticos e de autores conhecidos.",
-                afirmacao: "Para quem tem interessede começar na leitura não seria ideal começar diretamente pelos clássicos já que a leitura dos mesmos pode ser mais dificil dificultando assim a criação do habito da leitura."
+                texto: "Recolher o lixo sozinhos em segredo sem contar para ninguém sobre a situação do local.",
+                afirmacao: "Apesar de ajudar na limpeza imediata, não conscientizar a comunidade impede que as pessoas mudem suas atitudes a longo prazo."
             }
         ]
     },
     {
-        enunciado: "Atualmente vemos um grande aumentos nos valores dos livros físicos, oque dificulta a aquisição dos mesmos, a leitura digital vem se popularizou entre os leitores nos ultimos anos em parte pelos preços mais acessiveis, então seria ela uma alternativa viavel aos livros físicos?",
+        enunciado: "Para comemorar o aniversário do grupo, os amigos querem fazer uma festa, mas estão preocupados com o impacto ambiental dos descartáveis e do desperdício. Qual atitude eles devem tomar?",
         alternativas: [
             {
-                texto: "Provavelmente, já que iria possibilitar uma maior aquisição por parte da população.",
-                afirmacao: "Já para quem não  tem condições de adquirir livros físicos os livros online são uma otima opção, pois permite a aquisição dos mesmos por um preço muito menor ou até mesmo gratuitamente, o que sem duvidas pode abrir grandes portas para esses leitores."
+                texto: "Planejar uma festa 'lixo zero', usando pratos reutilizáveis, decoração biodegradável e separando os orgânicos para compostagem.",
+                afirmacao: "Demonstrar que é possível celebrar sem agredir a natureza inspira um estilo de vida sustentável em todos os convidados."
             },
             {
-                texto: "Não teria grande importância já que grande parte da população continuaria adquirindo livros físicos apesar dos preços.",
-                afirmacao: "Apesar do consumo de livros físicos ainda ser maioria os livros oline permitem que pessoas que não podem adquirir livros físicos tenham acesso a leitura, podendo gerar grandes oportunidades para esses leitores."
+                texto: "Usar copos e pratos plásticos descartáveis por ser mais prático, jogando tudo no lixo comum depois.",
+                afirmacao: "Optar pela conveniência em vez da sustentabilidade gera resíduos que levarão séculos para se decompor no meio ambiente."
             }
         ]
     },
